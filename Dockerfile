@@ -7,6 +7,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt -y install git-all
 
 RUN apt-get -y install zip
 
+RUN apt-get -y install curl
+
 RUN curl -s https://packagecloud.io/install/repositories/swift-arm/release/script.deb.sh | bash
 
 RUN apt-get -y install swiftlang=5.4-3-ubuntu-focal
