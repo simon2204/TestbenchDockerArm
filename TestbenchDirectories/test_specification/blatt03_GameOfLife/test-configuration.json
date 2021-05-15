@@ -1,0 +1,6 @@
+{
+    "id": 3,
+    "label": "GameOfLife (Blatt 3)",
+    "timeoutInMs": 2000,
+    "submissionExecutable": {"name": "submission-executable", "dependencies": "tests"},
+}

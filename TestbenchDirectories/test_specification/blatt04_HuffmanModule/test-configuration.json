@@ -1,0 +1,6 @@
+{
+    "id": 4,
+    "label": "HuffmanModule (Blatt 4)",
+    "timeoutInMs": 2000,
+    "submissionExecutable": {"name": "submission-executable", "dependencies": "tests"},
+}
