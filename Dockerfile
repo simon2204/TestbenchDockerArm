@@ -3,7 +3,7 @@ FROM arm64v8/ubuntu
 RUN apt-get -y update \
 && apt-get -y upgrade
 
-RUN apt -y install git-all
+RUN DEBIAN_FRONTEND=noninteractive apt -y install git-all
 
 RUN apt-get -y install zip
 
